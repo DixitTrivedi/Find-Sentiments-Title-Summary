@@ -1,0 +1,30 @@
+# Text Summarization
+
+# We can do summarization using two method
+# i)  Extractive Text Summarization
+# ii) Abstractive Text Summarization
+
+# i)  Extractive Text Summarization
+# tradional method for summarization, It takes less time to summarize, it dosen't produce new text
+from the given paragraph. It checks which statement is important then it takes that statements 
+using priority
+
+# ex:)             He is good. Nilesh is intelligent guy. He has three brothores.
+# answer will be:) Nilesh is intelligent guy. He is good
+
+# There are some methods which follow this approch.
+a)  TextRank Algorithm
+b)  LexRank
+c)  Luhn
+d)  Latent Semantic Analysis, LSA
+e)  KL-Sum
+
+
+# ii) Abstractive Text Summarization
+# advanced method for summarization, It more time than extractive method, because,
+which generates new sentences that could best represent the whole text. 
+
+# ex:)             He is good. Nilesh is intelligent guy. He has three brothores.
+# answer will be:) Nilesh is smart and good guy.
+
+
